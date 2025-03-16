@@ -47,6 +47,7 @@ EOF
 [$API_USER]
         password = $API_PASSWORD
         upsmon $SERVER
+        actions = set
         instcmds = ALL
 EOF
   fi
